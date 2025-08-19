@@ -18,6 +18,7 @@ var connectDB = /*#__PURE__*/function () {
         case 1:
           connection = _context.v;
           console.log("MongoDB Connected: ".concat(connection.connection.host));
+          console.log(`📌 Using Database: ${connection.connection.name}`);
           _context.n = 3;
           break;
         case 2:
